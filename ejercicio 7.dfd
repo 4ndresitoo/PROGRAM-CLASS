@@ -1,0 +1,51 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+8
+BaseZ2  
+5
+1
+8
+AlturaZ2
+6
+3
+6
+Zona1 
+3
+3.2
+5
+Zona2
+17
+BaseZ2 * AlturaZ2
+6
+Zona3 
+2
+30
+6
+3
+1
+C
+5
+80000
+11
+TotalBultos
+25
+Zona1 + Zona2 + Zona3 * 2
+6
+Dinero
+15
+C * TotalBultos
+4
+1
+11
+TotalBultos
+4
+1
+6
+Dinero
+1

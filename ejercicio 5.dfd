@@ -1,0 +1,41 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+5
+1
+11
+ValorTennis
+5
+1
+10
+ValorBlusa
+5
+1
+9
+ValorJean
+6
+3
+17
+TotalSinDescuento
+36
+ValorBlusa + ValorJean + ValorTennis
+9
+Descuento
+26
+TotalSinDescuento * 25/100
+5
+Total
+29
+TotalSinDescuento - Descuento
+4
+1
+5
+Total
+4
+1
+9
+Descuento
+1
