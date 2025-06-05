@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+Tarjeta
+7
+2000000
+8
+Ncompras
+1
+0
+9
+1
+11
+Tarjeta > 0
+5
+1
+1
+P
+7
+0
+1
+11
+P < Tarjeta
+4
+1
+22
+' Saldo Insuficiente '
+13
+6
+2
+7
+Tarjeta
+11
+Tarjeta - P
+8
+Ncompras
+12
+Ncompras + 1
+13
+4
+1
+24
+'Su saldo es:  ',Tarjeta
+4
+1
+39
+' el numero de compras fue: ' ,Ncompras
+11
+1

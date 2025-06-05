@@ -1,0 +1,247 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+5
+Bcien
+2
+60
+10
+Bcincuenta
+2
+80
+2
+Op
+1
+1
+6
+2
+7
+Bveinte
+3
+100
+5
+Bdiez
+3
+200
+6
+3
+8
+Valor100
+14
+Bcien * 100000
+7
+Valor50
+18
+Bcincuenta * 50000
+7
+Valor20
+15
+Bveinte * 20000
+6
+2
+7
+Valor10
+13
+Bdiez * 10000
+5
+Total
+38
+Valor100 + Valor50 + Valor20 + Valor10
+9
+1
+6
+Op !=4
+4
+1
+127
+'Estimado Usuario digite la opcion que desea escoger (1 retirar dinero.) (2.consignar al cajero) (3.ver cantidad de billetes) '
+5
+1
+2
+Op
+7
+0
+1
+6
+Op = 1
+7
+0
+1
+6
+Op = 2
+7
+0
+1
+6
+Op = 3
+13
+4
+1
+5
+Bcien
+4
+1
+10
+Bcincuenta
+4
+1
+7
+Bveinte
+4
+1
+5
+Bdiez
+13
+13
+4
+1
+27
+'Digite Monto a consignar '
+5
+1
+6
+Cargar
+6
+1
+5
+Total
+14
+Total + Cargar
+4
+1
+5
+Total
+13
+13
+4
+1
+38
+'Sr usuario digite el monto a retirar'
+5
+1
+1
+R
+6
+1
+3
+Res
+11
+R mod 10000
+7
+0
+1
+27
+Res = 0 AND Total > 3000000
+4
+1
+19
+' Recargue Cajero '
+13
+6
+3
+6
+BcienA
+17
+trunc(R / 100000)
+2
+Ra
+12
+R mod 100000
+6
+CBcien
+14
+Bcien - BcienA
+6
+1
+5
+Bcien
+6
+CBcien
+9
+1
+9
+Bcien = 0
+6
+3
+11
+BcincuentaA
+16
+trunc(R / 50000)
+2
+Ra
+11
+R mod 50000
+11
+CBcincuenta
+24
+Bcincuenta - BcincuentaA
+6
+1
+10
+Bcincuenta
+11
+CBcincuenta
+11
+9
+1
+14
+Bcincuenta = 0
+6
+3
+8
+BveinteA
+16
+trunc(R / 20000)
+2
+Ra
+11
+R mod 20000
+8
+CBveinte
+18
+Bveinte - BveinteA
+6
+1
+7
+Bveinte
+8
+CBveinte
+11
+9
+1
+11
+Bveinte = 0
+6
+3
+6
+BdiezA
+16
+trunc(R / 10000)
+2
+Ra
+11
+R mod 10000
+6
+CBdiez
+14
+Bdiez - BdiezA
+6
+1
+5
+Bdiez
+6
+CBdiez
+11
+4
+1
+18
+'Usted retiro: ',R
+13
+13
+11
+1

@@ -1,0 +1,147 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+2
+Op
+1
+1
+5
+Saldo
+1
+0
+9
+1
+7
+Op != 5
+4
+1
+139
+'Estimado Usuario digite la opcion que desea escoger (1 retirar dinero.) (2.consignar dinero) (3.ver saldo) (4.pagar recibo luz) (5.salir)'
+5
+1
+2
+Op
+7
+0
+1
+6
+Op = 1
+7
+0
+1
+6
+Op = 2
+7
+0
+1
+6
+Op = 3
+7
+0
+1
+6
+Op = 4
+13
+4
+1
+35
+'Digite el valor del recibo de luz'
+5
+1
+4
+VLuz
+6
+1
+6
+TotalR
+20
+Vluz + (Vluz * 0.05)
+7
+0
+1
+14
+Saldo > TotalR
+4
+1
+45
+'Saldo insuficiente regarga para poder pagar'
+13
+6
+1
+5
+Saldo
+14
+Saldo - TotalR
+4
+1
+67
+'Pagaste el recibo de la luz efecticamente tu saldo es de:  ',Saldo
+13
+13
+13
+4
+1
+29
+' Su saldo Actual es: ',Saldo
+13
+13
+4
+1
+54
+' Digite el monto a consignar a su cuenta de ahorros '
+5
+1
+9
+Consignar
+6
+1
+5
+Saldo
+17
+Saldo + Consignar
+13
+13
+7
+0
+1
+9
+Saldo > 0
+4
+1
+35
+'Aun no tienes fondos para retirar'
+13
+4
+1
+27
+'Digite el monto a retirar'
+5
+1
+6
+Retiro
+7
+0
+1
+15
+Retiro <= Saldo
+4
+1
+54
+'Fondos Insuficientes, no puedes retirar esa cantidad'
+13
+6
+1
+5
+Saldo
+14
+Saldo - Retiro
+13
+13
+13
+11
+1

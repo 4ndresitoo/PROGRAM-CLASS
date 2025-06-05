@@ -1,0 +1,443 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+5
+Extra
+4
+2000
+10
+Corriente 
+4
+2000
+6
+2
+6
+PExtra
+5
+21000
+10
+PCorriente
+5
+16000
+6
+3
+6
+VentaC
+1
+0
+6
+VentaE
+1
+0
+6
+VentaA
+1
+0
+9
+1
+30
+Corriente >= 20 or Extra >= 20
+4
+1
+102
+' Bienvenido a Gasolinera los Padilla, por favor indique si desea tanquear. Corriente (1) o Extra (2)'
+5
+1
+8
+Gasolina
+7
+0
+1
+12
+Gasolina = 1
+4
+1
+70
+'Desea tanquear por galón o por dinero Digite: Galon (1) o Dinero (2)'
+5
+1
+8
+Tanquear
+7
+0
+1
+12
+Tanquear = 1
+4
+1
+39
+' Digite cuantos dinero desea tanquear'
+5
+1
+8
+Efectivo
+6
+1
+6
+GalonE
+17
+Efectivo / PExtra
+7
+0
+1
+15
+GalonE <= Extra
+4
+1
+70
+'Lo sentimos se acabo tu reserva de Gasolina Extra, tanquea Corriente'
+13
+6
+2
+6
+VentaB
+15
+GalonE * PExtra
+5
+Extra
+15
+Extra - GalonE 
+13
+13
+4
+1
+40
+' Digite cuantos Galones desea tanquear'
+5
+1
+6
+GalonE
+7
+0
+1
+15
+GalonE <= Extra
+4
+1
+70
+'Lo sentimos se acabo tu reserva de Gasolina Extra, tanquea Corriente'
+13
+6
+2
+6
+VentaB
+15
+GalonE * PExtra
+5
+Extra
+15
+Extra - GalonE 
+13
+13
+6
+1
+6
+VentaE
+14
+VentaE +VentaB
+13
+4
+1
+70
+'Desea tanquear por galón o por dinero Digite: Galon (1) o Dinero (2)'
+5
+1
+8
+Tanquear
+7
+0
+1
+12
+Tanquear = 1
+4
+1
+39
+' Digite cuantos dinero desea tanquear'
+5
+1
+8
+Efectivo
+6
+1
+6
+GalonC
+21
+Efectivo / Pcorriente
+7
+0
+1
+19
+GalonC <= Corriente
+4
+1
+70
+'Lo sentimos se acabo tu reserva de Gasolina Corriente, tanquea Extra'
+13
+6
+2
+6
+VentaA
+19
+GalonC * PCorriente
+9
+Corriente
+19
+Corriente - GalonC 
+13
+13
+4
+1
+40
+' Digite cuantos Galones desea tanquear'
+5
+1
+6
+GalonC
+7
+0
+1
+19
+GalonC <= Corriente
+4
+1
+70
+'Lo sentimos se acabo tu reserva de Gasolina Corriente, tanquea Extra'
+13
+6
+2
+6
+VentaA
+19
+GalonC * PCorriente
+9
+Corriente
+19
+Corriente - GalonC 
+13
+13
+6
+1
+6
+VentaC
+14
+VentaC +VentaA
+13
+9
+1
+31
+Corriente <= 20 AND Extra <= 20
+6
+1
+5
+Total
+15
+VentaC + VentaE
+4
+1
+88
+'Señor ADMIN por favor digite si desea llenar el tanque de Corriente (1.) ó Extra (2.) '
+5
+1
+6
+NuevaG
+7
+0
+1
+10
+NuevaG = 1
+4
+1
+49
+'Indique cuantos galones desea tanquear de Extra'
+5
+1
+8
+LLenarGE
+6
+1
+6
+Dinero
+17
+LLenarGE * PExtra
+7
+0
+1
+14
+Dinero < Total
+4
+1
+58
+'No tienes la cantidad suficiente de dinero en tus ventas'
+13
+6
+2
+5
+Extra
+16
+Extra + LLenarGE
+6
+NuevoS
+14
+Total - Dinero
+13
+4
+1
+67
+'Desea tambien tanquear su tanque de corriente : SI (1.) ó No (2.)'
+5
+1
+7
+NuevaG2
+7
+0
+1
+11
+NuevaG2 = 1
+4
+1
+59
+' Tanqueado correctamente en Extra, sigue vendiendo mucho '
+13
+4
+1
+53
+'Indique cuantos galones desea tanquear de Corriente'
+5
+1
+8
+LLenarGC
+6
+1
+7
+Dinero2
+21
+LLenarGC * PCorriente
+7
+0
+1
+16
+Dinero2 < NuevoS
+4
+1
+28
+'Ups no te alcanza el saldo'
+13
+6
+2
+9
+Corriente
+20
+Corriente + LLenarGC
+7
+NuevoS2
+16
+NuevoS - Dinero2
+13
+4
+1
+29
+'Sensacional, sigue operando'
+13
+13
+4
+1
+53
+'Indique cuantos galones desea tanquear de Corriente'
+5
+1
+8
+LLenarGC
+6
+1
+6
+Dinero
+21
+LLenarGC * PCorriente
+7
+0
+1
+14
+Dinero < Total
+4
+1
+58
+'No tienes la cantidad suficiente de dinero en tus ventas'
+13
+6
+2
+9
+Corriente
+20
+Corriente + LLenarGC
+6
+NuevoS
+14
+Total - Dinero
+13
+4
+1
+63
+'Desea tambien tanquear su tanque de Extra : SI (1.) ó No (2.)'
+5
+1
+7
+NuevaG2
+7
+0
+1
+11
+NuevaG2 = 1
+4
+1
+63
+' Tanqueado correctamente en Corriente, sigue vendiendo mucho '
+13
+4
+1
+49
+'Indique cuantos galones desea tanquear de Extra'
+5
+1
+8
+LLenarGE
+6
+1
+7
+Dinero2
+17
+LLenarGE * PExtra
+7
+0
+1
+16
+Dinero2 < NuevoS
+4
+1
+28
+'Ups no te alcanza el saldo'
+13
+6
+2
+5
+Extra
+16
+Extra + LLenarGE
+7
+NuevoS2
+16
+NuevoS - Dinero2
+13
+4
+1
+29
+'Sensacional, sigue operando'
+13
+13
+11
+11
+1

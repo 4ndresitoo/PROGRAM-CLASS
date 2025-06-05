@@ -1,0 +1,106 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+28
+'Digite el monto del retiro'
+5
+1
+1
+R
+6
+1
+3
+Res
+8
+R mod 10
+6
+3
+5
+Bcien
+1
+0
+10
+Bcincuenta
+1
+0
+7
+Bveinte
+1
+0
+6
+1
+5
+Bdiez
+1
+0
+7
+0
+1
+18
+Res = 0 AND R > 10
+4
+1
+32
+' No se puede retirar ese monto'
+13
+6
+3
+5
+Bcien
+14
+trunc(R / 100)
+1
+R
+9
+R mod 100
+10
+Bcincuenta
+13
+trunc(R / 50)
+6
+3
+1
+R
+8
+R mod 50
+7
+Bveinte
+13
+trunc(R / 20)
+1
+R
+8
+R mod 20
+6
+2
+5
+Bdiez
+14
+trunc( R / 10)
+1
+R
+8
+R mod 10
+4
+1
+42
+'Te daremos:  ',Bcien  ,' Billetes de 100'
+4
+1
+46
+'Te daremos:  ',Bcincuenta  ,' Billetes de 50'
+4
+1
+43
+'Te daremos:  ',Bveinte  ,' Billetes de 20'
+4
+1
+41
+'Te daremos:  ',Bdiez  ,' Billetes de 10'
+13
+1

@@ -1,0 +1,161 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+2
+Op
+1
+1
+9
+1
+7
+Op != 5
+4
+1
+83
+'Estimado Usuario digite la opcion que desea escoger (1.) (2.) (3.) (4.) (5.salir)'
+5
+1
+2
+Op
+7
+0
+1
+6
+Op = 1
+7
+0
+1
+6
+Op = 2
+7
+0
+1
+6
+Op = 3
+7
+0
+1
+6
+Op = 4
+13
+5
+1
+1
+N
+6
+1
+1
+R
+7
+N mod 2
+7
+0
+1
+5
+R = 0
+4
+1
+20
+'El numero es impar'
+13
+4
+1
+18
+'El numero es par'
+13
+13
+13
+6
+1
+4
+Suma
+1
+0
+4
+1
+31
+'Digite los numeros a digitar '
+8
+1
+1
+i
+1
+1
+0
+1
+1
+7
+1
+1
+1
+5
+1
+1
+N
+6
+1
+4
+Suma
+8
+Suma + N
+10
+4
+1
+34
+' el total de la suma fue : ',Suma
+13
+13
+4
+1
+45
+' Digite el tamaño de un lado de un cuadrado'
+5
+1
+4
+Lado
+6
+1
+5
+Area2
+8
+Lado * 4
+4
+1
+44
+'El total del area del cuadrado fue: ',Area2
+13
+13
+4
+1
+13
+'Digite Base'
+5
+1
+4
+Base
+4
+1
+15
+'Digite Altura'
+5
+1
+6
+Altura
+6
+1
+4
+Area
+13
+Base * Altura
+4
+1
+29
+'El total de area fue: ',Area
+13
+11
+1

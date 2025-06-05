@@ -1,0 +1,101 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+C1
+1
+0
+2
+C2
+1
+0
+1
+D
+1
+0
+9
+1
+6
+D < 40
+4
+1
+50
+' señor usuario digite por quien va a votar 1 ó 2'
+5
+1
+1
+V
+7
+0
+1
+5
+V = 1
+6
+1
+2
+V2
+6
+V2 + 1
+13
+6
+1
+2
+V1
+6
+V1 + 1
+13
+6
+1
+6
+TotalV
+7
+V1 + V2
+7
+0
+1
+10
+Total > 10
+13
+7
+0
+1
+7
+V1 > V2
+6
+3
+11
+Porcentaje1
+9
+V1 /Total
+11
+Porcentaje2
+8
+V2/Total
+1
+D
+32
+(Porcentaje2 - Porcentaje1) *100
+13
+6
+3
+11
+Porcentaje1
+9
+V1 /Total
+11
+Porcentaje2
+8
+V2/Total
+1
+D
+32
+(Porcentaje1 - Porcentaje2) *100
+13
+13
+11
+1
